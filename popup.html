@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tyt's tool box</title>
+  </head>
+  <style>
+    body {
+      width: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      font-size: 20px;
+      text-align: center;
+    }
+    button {
+      display: block;
+    }
+    .checkbox {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  </style>
+  <body>
+    <h1>tyt's tool box</h1>
+    <button id="execute">选取页面内容复制</button>
+    <div class="checkbox">
+      <label for="mode">是否开启多行复制模式</label>
+      <input type="checkbox" id="mode" />
+    </div>
+  </body>
+  <script src="popup.js"></script>
+</html>
